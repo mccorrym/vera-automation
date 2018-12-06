@@ -1,0 +1,1 @@
+luup.call_action("urn:upnp-org:serviceId:IOSPush1", "SendProwlNotification", {Event="Low Battery", Description="The batteries in the " .. dancer.device_trigger .. " sensor need to be replaced.", Priority=-1, URL=""}, 17)
